@@ -1,0 +1,21 @@
+header{
+font-size: larger;
+font-weight: bolder;
+
+
+}
+nav{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    border-style:solid;
+    border-width: 2px;
+}
