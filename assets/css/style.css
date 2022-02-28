@@ -1,13 +1,19 @@
 header{
-font-size: larger;
-font-weight: bolder;
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    color: blueviolet;
+  }
 
-
-}
 nav{
     font-size: 16px;
     font-weight: bolder;
 }
+.profile{
+
+}
+
 .projects{
     display: flex;
     flex-direction: row;
@@ -16,6 +22,24 @@ nav{
     width: 90%;
     height: 100vh;
     margin: 0 auto;
-    border-style:solid;
-    border-width: 2px;
-}
+    
+   }
+
+   form {
+    max-width: 400px;
+    justify-content: center;
+  }
+  
+  form h3 {
+    font-size: 150%;
+  }
+  
+  form p {
+    margin: 3% 0;
+  }
+  
+  label {
+    display: block;
+  }
+  
+ 
