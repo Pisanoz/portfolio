@@ -13,14 +13,29 @@ main{
   flex-wrap: wrap;
   margin-top: 2%;
 }
+.navbartop{
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #ddd;
+  color: black;
 
-.projects{
+}
+.Projects{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.Projects{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 60px;
+    padding: 2px;
   }
-.projects {
+.Projects {
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
