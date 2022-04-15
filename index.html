@@ -3,7 +3,7 @@
 	<head>
 		<title>Portfolio of my work</title>
 		<meta charset="UTF-8" />
-		<meta name="Viewport" content="width=device-width' intital-scale=1" />
+		<meta name="Viewport" content="width=device-width, intital-scale=1" />
 		<link rel="stylesheet" href="./assets/css/reset.css" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
 	</head>
@@ -14,7 +14,8 @@
 			<header>
 				<article class="profile">
 					<h1>Zane Pisano</h1>
-					<img class="profile-img"
+					<img
+						class="profile-img"
 						src="assets/images/IMG_20191202_194414 (2).jpg"
 						alt="Image comeing soon"
 					/>
@@ -25,6 +26,7 @@
 							<li><a href="#contact-nav">Contact me</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#work">Work i have done</a></li>
+							<li><a href="./assets/pdf link/Resume-Zane-Pisano.pdf" target="_blank">Resume</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -36,31 +38,41 @@
 				<section class="about">
 					<h2 id="about">About me</h2>
 					<p>
-						Hello my name is zane pisano im working on becomeing a web dev. i
-						know html css java scrip bootstrap and a few different codeing laug.
+						Hello my name is Zane Pisano a software engineer student. I know
+						html, CSS, java scrip, bootstrap and a few different coding
+						languages. I have not been in the field very long and am just
+						starting to get ready for a switch to the coding field.
 					</p>
 				</section>
-				<section class="Projects">
-					<article class="item numberOne">
+				<section class="container Projects">
+					<article class=" card item numberone">
 						<div>
-							<a href="https://pisanoz.github.io/Semantic/" id="work">work i have done</a>
+							<a href="https://simonasnap.github.io/WorkoutMusicAPI/" id="work"
+								>Project i did work on
+							</a>
 						</div>
+						
 					</article>
-					<article class="item">
+					<article class="card item numbertwo">
+						<div>
+							<a href="https://pisanoz.github.io/Password-Gen/" id="work">
+								password Generator i made
+							</a>
+						</div>
+					
+						<!-- <img
+							src="./assets/images/neon-style-coming-soon-glowing-background-design_1017-25516.webp"
+							alt="Image comeing soon"
+						/> -->
+					</article>
+					<article class="card item">
 						<h3>Comeing soon</h3>
 						<!-- <img
 							src="./assets/images/neon-style-coming-soon-glowing-background-design_1017-25516.webp"
 							alt="Image comeing soon"
 						/> -->
 					</article>
-					<article class="item">
-						<h3>Comeing soon</h3>
-						<!-- <img
-							src="./assets/images/neon-style-coming-soon-glowing-background-design_1017-25516.webp"
-							alt="Image comeing soon"
-						/> -->
-					</article>
-					<article class="item">
+					<article class="card item">
 						<h3>Comeing soon</h3>
 						<!-- <img
 							src="./assets/images/neon-style-coming-soon-glowing-background-design_1017-25516.webp"
@@ -68,18 +80,22 @@
 						/> -->
 					</article>
 				</section>
-			</main>
+			
 		</div>
-		<footer>
+		<footer class="container-fluid">
 			<nav>
-				<div id="contact-nav">
-					<ul>
-						<li><a href="phone number">0000000000</a></li>
-						<li><a href="email">email</a></li>
-						<li><a href="https://github.com/Pisanoz">github</a></li>
+				<div class="d-flex flex-wrap flex-direction" id="contact-nav">
+					<ul class="footerlist">
+						<li>(360)420-4209</li>
+						<li><a href="mailto:pisanoz@live.com"> email me </a></li>
+						<li ><a href="https://github.com/Pisanoz" >github</a></li>
+						<li><a href="https://www.linkedin.com/in/zane-pisano-a24177230/">linkedin</a></li>
 					</ul>
 				</div>
 			</nav>
 		</footer>
+	</main>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 	</body>
 </html>

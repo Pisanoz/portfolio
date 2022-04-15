@@ -1,4 +1,4 @@
-:root{
+:root {
 	color: aqua;
 }
 .container {
@@ -38,8 +38,9 @@ header div nav ul li {
 	padding: 10px;
 	color: aqua;
 }
-header div nav ul li :hover{
+header div nav ul li :hover {
 	background-color: aqua;
+	color: black;
 }
 
 #about,
@@ -59,9 +60,15 @@ header div nav ul li :hover{
 	min-width: 500px;
 	min-height: 500px;
 }
+.numberone {
+	background-image: url("../images/barbells&brews.png");
+	background-position: center;
+	width: 40%;
+	height: 40%;
+}
 
-.numberOne {
-	background-image: url("../images/01-html-css-git-homework-demo.png");
+.numbertwo {
+	background-image: url("../images/PasswordGenerator.png");
 	background-position: center;
 	width: 40%;
 	height: 40%;
@@ -83,4 +90,13 @@ footer nav div ul {
 	flex-direction: row;
 	justify-content: space-around;
 	font-size: 40px;
+}
+footer nav div ul li {
+	text-decoration: none;
+}
+@media  screen and (max-width: 800px) {
+	.footerlist {
+		flex-direction: column;
+	}
+	
 }
