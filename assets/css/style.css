@@ -73,6 +73,12 @@ header div nav ul li :hover {
 	width: 40%;
 	height: 40%;
 }
+.numberthree {
+	background-image: url("../images/shoppingpic.jpg");
+	background-position: center;
+	width: 40%;
+	height: 40%;
+}
 
 .item div {
 	background-color: aqua;
@@ -94,9 +100,8 @@ footer nav div ul {
 footer nav div ul li {
 	text-decoration: none;
 }
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 	.footerlist {
 		flex-direction: column;
 	}
-	
 }
